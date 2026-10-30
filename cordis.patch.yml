@@ -1,0 +1,8 @@
+# dsh-model-tree —— DSH bundle patch
+#
+# 把插件行插进 profile 的 Loader 表。
+#   - id   这个插件自己的条目 id
+#   - name npm 包名，loader 按它加载模块
+- insert:
+    - id: dsh-model-tree
+      name: dsh-model-tree
