@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "title": {
+    "en": "tafff-rq Plugins",
+    "zh": "tafff-rq 插件市场"
+  },
+  "description": {
+    "en": "Plugins by tafff-rq for DeepSeek Harness",
+    "zh": "tafff-rq 的 DeepSeek Harness 插件"
+  },
+  "plugins": [
+    {
+      "name": "dsh-model-tree",
+      "title": {
+        "en": "Model Tree",
+        "zh": "模型树"
+      },
+      "description": {
+        "en": "Two-level model picker: pick a provider first, then a model — instead of one long flat list.",
+        "zh": "二级模型选择器：先选提供商，再选模型，不用在一长串列表里翻。"
+      },
+      "author": "tafff-rq",
+      "homepage": "https://github.com/tafff-rq/dsh-model-tree",
+      "repository": {
+        "url": "https://github.com/tafff-rq/dsh-model-tree"
+      },
+      "metadata": {
+        "keywords": ["model", "picker", "provider", "ui"]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1730638930,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/tafff-rq/dsh-model-tree",
+            "commit": "8601ce6d3c9ba5b838a7437fe00d18a372b067ac"
+          }
+        }
+      ]
+    }
+  ]
+}
