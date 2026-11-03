@@ -1,6 +1,6 @@
 # dsh-model-tree
 
-给 [the coding assistant (DSH)](https://github.com/deepseek-ai/the coding assistant) 的模型选择器加上**二级菜单**。
+给 [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-harness) 的模型选择器加上**二级菜单**。
 
 当你在多个中转站 / 多个账号之间切换时，内置选择器会把所有 provider 的模型摊平成一长列，找模型变成翻列表。这个插件把它改成两级：
 
@@ -32,8 +32,10 @@
 在你的 DSH profile 目录（`package.json` 里列着 `dsh.profile.bundles` 的那个）执行：
 
 ```sh
-pnpm add dsh-model-tree
+pnpm add github:tafff-rq/dsh-model-tree
 ```
+
+> 也可以写成完整地址：`pnpm add git+https://github.com/tafff-rq/dsh-model-tree.git`
 
 然后把包名加进 `dsh.profile.bundles`：
 

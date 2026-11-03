@@ -1,7 +1,7 @@
 {
   "name": "dsh-model-tree",
   "version": "0.1.0",
-  "description": "Two-level model picker for the coding assistant (DSH): pick a provider first, then a model — instead of one long flat list.",
+  "description": "Two-level model picker for DeepSeek Harness (DSH): pick a provider first, then a model — instead of one long flat list.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -34,14 +34,18 @@
   "keywords": [
     "dsh",
     "dsh-plugin",
-    "the coding assistant",
     "deepseek",
+    "deepseek-harness",
     "model-picker",
     "ui"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tafff-RQ/dsh-model-tree.git"
+    "url": "git+https://github.com/tafff-rq/dsh-model-tree.git"
+  },
+  "homepage": "https://github.com/tafff-rq/dsh-model-tree#readme",
+  "bugs": {
+    "url": "https://github.com/tafff-rq/dsh-model-tree/issues"
   }
 }

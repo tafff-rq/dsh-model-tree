@@ -1,6 +1,6 @@
 # dsh-model-tree
 
-Two-level model picker for [the coding assistant (DSH)](https://github.com/deepseek-ai/the coding assistant).
+Two-level model picker for [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-harness).
 
 The built-in picker renders every provider's models in one long scrolling list.
 With several relay endpoints and multiple accounts, finding a model turns into a
@@ -34,8 +34,10 @@ From your DSH profile directory (the one whose `package.json` lists
 `dsh.profile.bundles`):
 
 ```sh
-pnpm add dsh-model-tree
+pnpm add github:tafff-rq/dsh-model-tree
 ```
+
+> Or with the full URL: `pnpm add git+https://github.com/tafff-rq/dsh-model-tree.git`
 
 Add the package name to `dsh.profile.bundles`:
 
